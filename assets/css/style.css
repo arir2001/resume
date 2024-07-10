@@ -6,9 +6,28 @@
     background-color: grey;
 }
 
+.ui-menu-color-home{
+    background-color: rgb(230, 255, 196);
+}
+
+.ui-menu-color-resume{
+    background-color: bisque;
+}
+
+.ui-menu-color-contact{
+    background-color: rgb(196, 245, 255);
+}
+
+.ui-menu-color-download{
+    background-color: rgb(255, 196, 243);
+}
 /*-------------heading*/
 
 header{
+    margin: 0;
+}
+
+.heading{
     margin-left: 50px;
 }
 
@@ -25,9 +44,46 @@ header{
 
 .name{
     font-family: 'Nunito', sans-serif;
-    font-weight: 700;
+    font-weight: 200;
+    font-size: 48px;
+    margin-top: 50px;
+    color: white;
 }
 
 .title{
     font-family: 'Lora', sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: white;
+}
+
+.menucontainer{
+    font-size: 0;
+    padding: 0;
+}
+
+#nav li{
+    font-size: 14px;
+    padding: 0;
+    text-align: center;
+    height: 120px;
+}
+
+#nav li a {
+    padding: auto;
+    color: grey;
+}
+
+#nav li a i{
+    text-decoration: none;
+    width: 100%;
+    display: block;
+    font-size: 26px;
+    padding-top: 30px;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
 }
