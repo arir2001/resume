@@ -60,6 +60,10 @@ inline-block{
 .bg-color-personal-info{
     background-color: pink
 }
+
+.bg-color-contact{
+    background-color: aliceblue;
+}
 /*-------------heading*/
 
 header{
@@ -182,7 +186,21 @@ header{
     position: relative;
     width: 60%;
 }
-/*--------------------------------------------Hover.css*/
+
+/*--------------------------------contact page*/
+.contact-heading{
+    display: block;
+    padding: 10px;
+}
+
+.center-form{
+    padding: 0 5%;
+}
+
+.form-row .col{
+    padding: 10px;
+}
+/*--------------------------------------------footer.css*/
 
 footer{
     background-color: grey;
@@ -232,5 +250,6 @@ footer{
 #footer-details {
     padding: 20px;
 }
+
 
 
