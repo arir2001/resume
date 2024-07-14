@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5{
     margin: 0;
 }
 .uppercase{
-    text: uppercase;
+    text-transform: uppercase;
 }
 
 .general-sub{
@@ -23,6 +23,16 @@ h1, h2, h3, h4, h5{
 
 inline-block{
     display:inline-block;
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
 }
 
 
@@ -45,6 +55,10 @@ inline-block{
 
 .ui-menu-color-download{
     background-color: rgb(255, 196, 243);
+}
+
+.bg-color-personal-info{
+    background-color: pink
 }
 /*-------------heading*/
 
@@ -139,6 +153,35 @@ header{
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+
+/*-------------------------------------------personal info*/
+.personal-info-container{
+    padding: 0;
+}
+
+.personal-info-item{
+    display: block;
+    
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+    font-weight: bold;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
+}
 /*--------------------------------------------Hover.css*/
 
 footer{
@@ -189,3 +232,5 @@ footer{
 #footer-details {
     padding: 20px;
 }
+
+
